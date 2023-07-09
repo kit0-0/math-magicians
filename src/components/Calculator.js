@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 
 function Calculator() {
+  const [calculatorState, setCalculatorState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const handleClick = (buttonName) => {
+    const newState = calculate(calculatorState, buttonName);
+    setCalculatorState(newState);
+  };
+
   const renderButton = (text, name, color, style) => (
     <div className="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
       <button
         type="button"
         className={`rounded-full h-12 w-20 flex items-center ${color} justify-center shadow-lg hover:border-gray-500 focus:outline-none ${style}`}
         name={name}
+        onClick={() => handleClick(name)}
       >
         {text}
       </button>
@@ -18,7 +31,7 @@ function Calculator() {
       <div className="">
         <div className="p-5 text-white text-right text-3xl bg-[#515151]">
           <span className="text-white-500">
-            0
+            {calculatorState.next || calculatorState.total || '0'}
           </span>
         </div>
 
@@ -26,14 +39,14 @@ function Calculator() {
           {renderButton('AC', 'AC', 'bg-gray-800')}
           {renderButton('+/-', '+/-', 'bg-gray-800')}
           {renderButton('%', '%', 'bg-gray-800')}
-          {renderButton('÷', '/', 'bg-orange-500')}
+          {renderButton('÷', '÷', 'bg-orange-500')}
         </div>
 
         <div className="flex items-stretch bg-[#c8c8c8] h-20">
           {renderButton('7', '7', 'bg-gray-800')}
           {renderButton('8', '8', 'bg-gray-800')}
           {renderButton('9', '9', 'bg-gray-800')}
-          {renderButton('×', '*', 'bg-orange-500')}
+          {renderButton('×', 'x', 'bg-orange-500')}
         </div>
 
         <div className="flex items-stretch bg-[#c8c8c8] h-20">
