@@ -1,0 +1,11 @@
+body,
+html {
+  font-family: 'Pacifico', cursive;
+  font-size: large;
+  background: linear-gradient(#dfdcdc, #824c4c) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
