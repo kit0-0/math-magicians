@@ -39,7 +39,7 @@ function Quote() {
 
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="text-center">
+      <div className="text-center w-6/12">
         <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white">
           {quote && (
             <div>
