@@ -7,7 +7,4 @@ describe('Home component', () => {
     const { container } = render(<Home />);
     expect(container).toMatchSnapshot();
   });
-
-  // Write more tests for the Home component
-  // covering different scenarios and interactions.
 });
