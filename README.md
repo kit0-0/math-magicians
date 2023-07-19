@@ -130,6 +130,10 @@ npm start
 
 - GitHub: [@kit0-0](https://github.com/kit0-0)
 
+👤 Binyam Tegene
+
+- GitHub: [@Log-benjamin](https://github.com/Log-benjamin/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
