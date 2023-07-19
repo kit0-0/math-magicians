@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component should match the snapshot 1`] = `
+<div>
+  <div>
+    <h1
+      class="justify-center flex items-center mt-3 text-3xl"
+    >
+       calculate here 👇 
+    </h1>
+    <div
+      class="mx-auto overflow-hidden mt-10 shadow-lg mb-2 bg-[#a4a4a4] border rounded-lg lg:w-2/6 md:w-3/6 sm:w-4/6"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="p-5 text-white text-right text-3xl bg-[#515151]"
+        >
+          <span
+            class="text-white-500"
+          >
+            0
+          </span>
+        </div>
+        <div
+          class="flex items-stretch bg-[#c8c8c8] h-20"
+        >
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="AC"
+              type="button"
+            >
+              AC
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="+/-"
+              type="button"
+            >
+              +/-
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="%"
+              type="button"
+            >
+              %
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-orange-500 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="÷"
+              type="button"
+            >
+              ÷
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-stretch bg-[#c8c8c8] h-20"
+        >
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="7"
+              type="button"
+            >
+              7
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="8"
+              type="button"
+            >
+              8
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="9"
+              type="button"
+            >
+              9
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-orange-500 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="x"
+              type="button"
+            >
+              ×
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-stretch bg-[#c8c8c8] h-20"
+        >
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="4"
+              type="button"
+            >
+              4
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="5"
+              type="button"
+            >
+              5
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="6"
+              type="button"
+            >
+              6
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-orange-500 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="-"
+              type="button"
+            >
+              -
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-stretch bg-[#c8c8c8] h-20"
+        >
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="1"
+              type="button"
+            >
+              1
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="2"
+              type="button"
+            >
+              2
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="3"
+              type="button"
+            >
+              3
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-orange-500 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="+"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-stretch border-2 bg-[#c8c8c8] h-20 mb-3 ml-3 mr-3 gap-5"
+        >
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none w-52"
+              name="0"
+              type="button"
+            >
+              0
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-gray-800 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="."
+              type="button"
+            >
+              .
+            </button>
+          </div>
+          <div
+            class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold"
+          >
+            <button
+              class="hover:bg-sky-700 rounded-full h-12 w-20 flex items-center bg-orange-500 justify-center shadow-lg hover:border-gray-500 focus:outline-none undefined"
+              name="="
+              type="button"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

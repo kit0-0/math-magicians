@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should match the snapshot 1`] = `
+<div>
+  <div
+    class=" h-screen flex flex-col ml-4"
+  >
+    <h1
+      class="text-4xl font-bold mt-8"
+    >
+      Welcome to Math Magicians
+    </h1>
+    <p
+      class="text-xl mt-4 w-screen"
+    >
+      Math Magicians is a web application that provides a calculator for performing arithmetic calculations and a random quote generator to inspire and motivate you.
+    </p>
+    <p
+      class="text-lg mt-4"
+    >
+      Get started by exploring the calculator functionality or discovering insightful quotes.
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component should match the snapshot 1`] = `
+<div>
+  <nav
+    class="bg-gray-800"
+  >
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+    >
+      <div
+        class="flex items-center justify-between h-16"
+      >
+        <div
+          class="flex items-center"
+        >
+          <a
+            class="text-white text-2xl font-bold mr-4"
+            href="/"
+          >
+            <h1>
+              Math Magicians
+            </h1>
+          </a>
+        </div>
+        <div
+          class="flex items-center"
+        >
+          <a
+            class="text-white hover:text-gray-300 ml-4"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="text-white hover:text-gray-300 ml-4"
+            href="/calculator"
+          >
+            Calculator
+          </a>
+          <a
+            class="text-white hover:text-gray-300 ml-4"
+            href="/quote"
+          >
+            Quote
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
